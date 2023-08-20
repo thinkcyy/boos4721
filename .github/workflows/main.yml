@@ -74,17 +74,4 @@ jobs:
           name: AX3600_OpenWrt_Firmware
           path: ./bin/targets/
           
-      - name: Apply Build Commit
-        run: |
-          cd ./artifact/firmware/
-          rm -rf .git
-          git init
-          git remote add origin https://${{ secrets.TOKEN }}@github.com/Boos4721/updater.git
-          git checkout -b OpenWrt
-          git add *.ubi *.bin sha256sums
-          git commit -sm "[bot] Autobuild: $(TZ='Asia/Shanghai' date +%m%d-%H%S)"
-          
-      - name: Push To Github
-        run: |
-          cd ./artifact/firmware/
-          git push -uf --quiet "https://${{ secrets.TOKEN }}@github.com/Boos4721/updater.git" HEAD:OpenWrt
+
