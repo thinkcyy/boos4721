@@ -1,7 +1,7 @@
-name: OpenWrt-build
+name: AX3600_thinkccy
 
 on:
-   workflow_dispatch
+   workflow_dispatch:
   
   watch:
     types: started
