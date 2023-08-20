@@ -64,7 +64,7 @@ bash ../scripts/preset-terminal-tools.sh
 
 # config file
 #cp ../config/xiaomi_ax3600-stock.config .config
-#make defconfig
+make defconfig
 
 # 编译固件
 # make download -j$(nproc)
