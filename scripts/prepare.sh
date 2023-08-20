@@ -60,7 +60,7 @@ svn export https://github.com/immortalwrt/immortalwrt/branches/master/package/em
 # sed -i 's/cpuinfo.cpuinfo || boardinfo.system/boardinfo.system/g' feeds/luci/modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js
 
 # 增加 oh-my-zsh
-#bash ../scripts/preset-terminal-tools.sh
+bash ../scripts/preset-terminal-tools.sh
 
 # config file
 #cp ../config/xiaomi_ax3600-stock.config .config
