@@ -1,7 +1,7 @@
 name: OpenWrt-build
 
 on:
-  repository_dispatch:
+   workflow_dispatch
   
   watch:
     types: started
