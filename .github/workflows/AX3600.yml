@@ -3,9 +3,10 @@ name: AX3600
 on:
 #  schedule:
 #    - cron: 5 6 * * 0
-  push:
-  watch:
-    types: started
+#  push:
+#  watch:
+#    types: started
+   workflow_dispatch
 
 jobs:
   build:
