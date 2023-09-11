@@ -2,9 +2,7 @@ name: AX3600-thinkcy-20230911
 
 on:
    workflow_dispatch
-  
-  watch:
-    types: started
+
     
 env:
   TZ: Asia/Shanghai
