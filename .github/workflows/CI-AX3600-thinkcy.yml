@@ -1,4 +1,4 @@
-name: AX3600-thinkcy
+name: AX3600-thinkcy-20230911
 
 on:
   repository_dispatch:
