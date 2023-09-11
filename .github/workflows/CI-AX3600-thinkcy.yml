@@ -49,7 +49,7 @@ jobs:
       - name: Compile firmware
         run: |
           cd $GITHUB_WORKSPACE
-          build-thinkcy.sh
+          bash ./build-thinkcy.sh
 
       - name: Prepare artifact
         run: |
